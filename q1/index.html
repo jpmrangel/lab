@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+
+    <title>Questão 1</title>
+</head>
+<body class="container">
+    <h1 id="titulo" class="text-center">Restaurante</h1>
+    <h2>Cardápio</h2>
+
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>Especificação</th>
+                <th>Código</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        
+        <tbody id="tbodyItemPedido">
+            <tr>
+                <td>Cachorro quente</td>
+                <td>100</td>
+                <td>R$ 1,20</td>
+            </tr>
+            <tr>
+                <td>Bauru simples</td>
+                <td>101</td>
+                <td>R$ 1,30</td>
+            </tr>
+            <tr>
+                <td>Bauru com ovo</td>
+                <td>102</td>
+                <td>R$ 1,50</td>
+            </tr>
+            <tr>
+                <td>Hambúrguer</td>
+                <td>103</td>
+                <td>R$ 1,20</td>
+            </tr>
+            <tr>
+                <td>Cheeseburguer</td>
+                <td>104</td>
+                <td>R$ 1,30</td>
+            </tr>
+            <tr>
+                <td>Refrigerante</td>
+                <td>105</td>
+                <td>R$ 1,00</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div>
+        <h2 id="pedido">Pedido</h2>
+        <hr>
+        <div id="form">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="nome">Código:</label>
+                        <input type="number" min="100" max="105" id="codigo" class="form-control" placeholder="Ex: 100">
+                    </div>
+                    <div class="form-group">
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="number" min="1" step="1" id="quantidade" class="form-control"> 
+                    </div>
+                    <div class="text-center">
+                        <button id="send" class="btn btn-primary" type="submit">Finalizar</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+    <div id="valor">
+        <h2>Valor:  </h2>
+        <h2 id="res"></h2>
+    </div>
+</body>
+</html>

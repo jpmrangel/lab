@@ -1,0 +1,67 @@
+#titulo{
+    margin-top: 30px;
+}
+
+div#form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form{
+    background: #3E84D6;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 30%;
+    height: 350px;
+}
+
+hr{
+    border: 1px solid #3E84D6;
+    border-radius: 4px;
+    margin: 10px auto -5px;
+    width: 30px;
+    transition: .6s;
+}
+
+div:hover hr{
+    width: 35%;
+    transition: .6s;
+}
+
+h2{
+    margin-top: 40px;
+    display: inline;
+}
+
+#pedido{
+    display: block;
+    margin: 50px auto -5px;
+    width: auto;
+    text-align: center;
+}
+
+p{
+    font-size: xx-large;
+    display: inline;
+}
+
+div.form-group{
+    margin: 50px 30%;
+}
+
+table{
+    position: relative;
+    margin-top: 30px;
+}
+
+th{
+    text-transform: uppercase;
+}
+
+div#valor{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

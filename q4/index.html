@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+
+    <title>Questão 4</title>
+</head>
+<body class="container">
+    <div class="main">
+        <div id="margem">
+            <h1 id="titulo">Lanchonete do IFMA</h1>
+            <div id="entrada">
+                <form class="form">
+                    <div class="form-group">
+                        <p id="nomeCliente">Nome do Cliente:</p>
+                        <input type="text" id="nome" name="nome" class="form-control">
+            
+                        <p>Bebidas:</p>
+                        <ul>
+                            <li>
+                                <input type="radio" id="suco" class="options" name="Bebidas1" value="Suco">
+                                <label for="suco">Suco</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="refrigerante" class="options" name="Bebidas2" value="Refrigerante">
+                                <label for="refrigerante">Refrigerante</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="agua" class="options" name="Bebidas3" value="Água">
+                                <label for="agua">Água</label>
+                            </li>   
+                        </ul>
+        
+                        <p>Doces e Salgados:</p>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="Doces e Salgados" id="bolo" class="options">
+                                <label for="bolo">Bolo</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="Doces e Salgados" id="pastel" class="options">
+                                <label for="pastel">Pastel</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="Doces e Salgados" id="torta" class="options">
+                                <label for="torta">Torta</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="butoes">
+                        <button id="send" class="btn btn-primary" type="submit">Calcular</button>
+                        <button id="clean" class="btn" type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+           
+        </div>
+    </div>
+    <h2>Comanda</h2>
+    <p id="infoCliente"></p>
+    <p id="tituloBebidas"></p><br>
+    <ul id="listaBebidas"></ul>
+    <p id="tituloComidas"></p><br>
+    <ul id="listaComidas"></ul>
+    <p id="infoValor"></p>
+</body>
+</html>

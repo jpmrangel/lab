@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+
+    <title>Questão 2</title>
+</head>
+<body class="container">
+    <h1 id="titulo" class="text-center">X & Y</h1>
+    <div id="main">
+    <!-- FORM -->    
+        <div id="entrada">
+            <section>
+                <h2 id="pedido">Insira dois números:</h2>
+                <hr>
+                <div id="form">
+                    <form class="form">
+                        <div class="form-group">
+                            <label for="nome">Número 1</label>
+                            <input type="number" step="1" id="num1" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="quantidade">Número 2</label>
+                            <input type="number" step="1" id="num2" class="form-control"> 
+                        </div>
+                        <div class="text-center">
+                            <button id="send" class="btn btn-primary" type="submit">Finalizar</button>
+                        </div>
+                        <p>&#9660;</p>
+                    </form>
+                </div>
+            </section>
+        </div>
+    <!-- /FORM -->
+        
+    <!-- TABELA -->
+        <table class="table-bordered">
+            <thead>
+                <tr>
+                    <th id="colunaOperacao">Operação</th>
+                    <th id="colunaValor">Valor</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyOperacoes">
+                <tr>
+                    <td id="membrosSoma"></td>
+                    <td id="resSoma"></td>
+                </tr>
+                <tr>
+                    <td id="membrosProduto"></td>
+                    <td id="resProduto"></td>
+                </tr>
+                <tr>
+                    <td id="membrosDivisao"></td>
+                    <td id="resDivisao"></td>
+                </tr>
+                <tr>
+                    <td id="membrosResto"></td>
+                    <td id="resResto"></td>
+                </tr>
+            </tbody>
+        </table>
+    <!-- /TABELA -->
+    </div>
+</body>
+</html>
