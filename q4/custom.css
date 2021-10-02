@@ -1,3 +1,39 @@
+/*
+/////////////
+///DIV's/////
+/////////////
+*/
+
+.main{
+    width: 40%;
+    display: block;
+    margin: 40px auto;
+    border: 2px solid #0F9246;
+    transition: .4s;
+    border-radius: 7px;
+}
+
+.resposta{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#margem{
+    margin: 15px;
+}
+
+.butoes{
+    margin-left: 7px;
+}
+
+/*
+/////////////
+///Título////
+/////////////
+*/
+
 h1{
     display: block;
     width: 200px;
@@ -11,9 +47,22 @@ h1{
 
 h2{
     display: block;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 30pt;
+    font-size: 20pt;
+    text-align: center;
+}
+
+/*
+/////////////
+/Páragrafo///
+/////////////
+*/
+
+p{
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 #nomeCliente{
@@ -22,27 +71,43 @@ h2{
     margin-bottom: 10px;
 }
 
-p{
-    margin-top: 10px;
-    margin-bottom: 0px;
+#infoValor {
+    font-weight: bolder;
 }
 
+/*
+/////////////
+///Lista/////
+/////////////
+*/
+
 ul{
-    list-style-type: none;
     padding: 0px;
 }
 
-#listaBebidas{
-    list-style-type: circle;
-}
-
-#listaComidas{
-    list-style-type: circle;
+#listaBebidas #listaComidas{
+    margin-left: 20px;
 }
 
 li{
     display: inline-block;
 }
+
+#listaComidas > li {
+    display: list-item;
+    margin-left: 30px;
+}
+
+#listaBebidas > li {
+    display: list-item;
+    margin-left: 30px;
+}
+
+/*
+/////////////
+///Input/////
+/////////////
+*/
 
 #nome{
     height: 27px;
@@ -54,20 +119,11 @@ li{
     margin-left: 10px;
 }
 
-.main{
-    width: 40%;
-    display: block;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid #0F9246;
-    transition: .4s;
-    border-radius: 7px;
-}
-
-.butoes{
-    margin-left: 7px;
-}
+/*
+/////////////
+///Butões////
+/////////////
+*/
 
 .btn-primary{
     background-color: #FFC214;
@@ -79,14 +135,18 @@ li{
     border-color: #0F9246;
 }
 
-#margem{
-    margin: 15px;
-}
+/*
+/////////////
+///Tela//////
+/////////////
+*/
 
 @media only screen and (max-width: 1000px) {
     .main{width: 50%}
+    .resposta{width: 40%}
 }
 
 @media only screen and (max-width: 780px) {
     .main{width: 100%}
+    .resposta{width: 100%}
 }
