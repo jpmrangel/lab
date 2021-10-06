@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+}
+
+body{
+    height: 120%;
+}
+
+#main {
+    width: 321px;
+    height: 450px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #E6E6E6;
+}
+
+h1{
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    margin-left: -1px;
+    margin-right: -1px;
+    border: 0px;
+    border-radius: 0px;
+    width: 76px;
+    height: 50px;
+    background-color: #FAFAFA;
+    outline: 0 !important;
+}
+
+button:hover{
+    background-color: #BEBEBE;
+}
+
+.options{
+    background-color: #F0F0F0;
+}
+
+input{
+    height: 70px;
+    width: 300px;
+    margin-top: 115px;
+    margin-left: 10px;
+    border: 0px;
+    background-color: #E6E6E6;
+    font-size: 40pt;
+    text-align: right;
+    /*outline: 0 !important;*/
+}
+
+.camada1, .camada2, .camada3, .camada4, .camada5{
+    margin-top: 2px;
+}
+
+.left{
+    margin-left: 5px;
+}
+
+.num{
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #8AD3D8;
+}
+
+
+.btn-primary:hover{
+    background-color: #45C5CD;
+}
+
+.btn-primary:focus{
+    box-shadow: none;
+}
+
+#soma{
+    margin-top: -5px;
+    width: 21px;
+    height: 21px;
+}
+
+#igual{
+    height: 17px;
+    width: 22px;
+}
+
+#apagar{
+    height: 16px;
+    margin-top: -2px;
+}
+
+#mais-menos{
+    width: 25px;
+    height: 25px;
+    margin-left: -2px;
+}
+
+label {
+    font-family: 'Segoe UI Regular';
+    font-size: 11pt;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.custom-select{
+    border: none;
+    overflow-y: auto;
+    height: 50px;
+}
