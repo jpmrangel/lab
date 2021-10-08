@@ -40,215 +40,184 @@ function continuar(key){
 
 let aux_ope = 0
 let aux_ope2 = 0
-let aux_ope3 = 0
 let aux_enter = 0
 let aux_virg = 0
 
 btn_n1.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+        $('#resultado').value = "1"
+    } else {
+        $('#resultado').value += "1"
+    } if (aux_ope == 1){
         $('#resultado').value = "1"
     } if (aux_virg == 1){
         $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-            $('#resultado').value = "1"
-        } else {
-            $('#resultado').value += "1"
-        }
-    }
+    } else {}
     aux_enter = 0
     aux_ope = 0
     ++aux_ope2
-    aux_ope3 = 0
 })
 
 btn_n2.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+        $('#resultado').value = "2"
+    } else {
+        $('#resultado').value += "2"
+    } if (aux_ope == 1){
         $('#resultado').value = "2"
     } 
     if (aux_virg == 1){
-        $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-            $('#resultado').value = "2"
-        } else {
-            $('#resultado').value += "2"
-        }
-    }
+        $('#resultado').value += "2"
+    } else {}
     aux_enter = 0
     aux_ope = 0
     ++aux_ope2
-    aux_ope3 = 0
 })
 
 btn_n3.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+        $('#resultado').value = "3"
+    } else {
+        $('#resultado').value += "3"
+    } if (aux_ope == 1){
         $('#resultado').value = "3"
     } 
     if (aux_virg == 1){
-        $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-            $('#resultado').value = "3"
-        } else {
-            $('#resultado').value += "3"
-        }
-    }
+        $('#resultado').value += "3"
+    } else {}
     aux_enter = 0
     aux_ope = 0
     ++aux_ope2
-    aux_ope3 = 0
 })
 
 btn_n4.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+        $('#resultado').value = "4"
+    } else {
+        $('#resultado').value += "4"
+    } if (aux_ope == 1){
         $('#resultado').value = "4"
     } 
     if (aux_virg == 1){
-        $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-            $('#resultado').value = "4"
-        } else {
-            $('#resultado').value += "4"
-        }
-    }
+        $('#resultado').value += "4"
+    } else {}
     aux_enter = 0
     aux_ope = 0
     ++aux_ope2
-    aux_ope3 = 0
 })
 
 btn_n5.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+        $('#resultado').value = "5"
+    } else {
+        $('#resultado').value += "5"
+    } if (aux_ope == 1){
         $('#resultado').value = "5"
     }
     if (aux_virg == 1){
-        $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-            $('#resultado').value = "5"
-        } else {
-            $('#resultado').value += "5"
-        }
-    }
+        $('#resultado').value += "5"
+    } else {}
     aux_enter = 0
     aux_ope = 0
     ++aux_ope2
-    aux_ope3 = 0
 })
 
 btn_n6.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+        $('#resultado').value = "6"
+    } else {
+        $('#resultado').value += "6"
+    } if (aux_ope == 1){
         $('#resultado').value = "6"
     }
     if (aux_virg == 1){
-        $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-            $('#resultado').value = "6"
-        } else {
-            $('#resultado').value += "6"
-        }
-    }
+        $('#resultado').value += "6"
+    } else {}
     aux_enter = 0
     aux_ope = 0
     ++aux_ope2
-    aux_ope3 = 0
 })
 
 btn_n7.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+        $('#resultado').value = "7"
+    } else {
+        $('#resultado').value += "7"
+    }if (aux_ope == 1){
         $('#resultado').value = "7"
     }
     if (aux_virg == 1){
-        $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-            $('#resultado').value = "7"
-        } else {
-            $('#resultado').value += "7"
-        }
-    }
+        $('#resultado').value += "7"
+    } else {}
     aux_enter = 0
     aux_ope = 0
     ++aux_ope2
-    aux_ope3 = 0
 })
 
 btn_n8.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+        $('#resultado').value = "8"
+    } else {
+        $('#resultado').value += "8"
+    } if (aux_ope == 1){
         $('#resultado').value = "8"
     }
     if (aux_virg == 1){
-        $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-            $('#resultado').value = "8"
-        } else {
-            $('#resultado').value += "8"
-        }
-    }
+        $('#resultado').value += "8"
+    } else {}
     aux_enter = 0
     aux_ope = 0
     ++aux_ope2
-    aux_ope3 = 0
 })
 
 btn_n9.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+        $('#resultado').value = "9"
+    } else {
+        $('#resultado').value += "9"
+    } if (aux_ope == 1){
         $('#resultado').value = "9"
     }
     if (aux_virg == 1){
-        $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-            $('#resultado').value = "9"
-        } else {
-            $('#resultado').value += "9"
-        }
-    }
+        $('#resultado').value += "9"
+    } else {}
     aux_enter = 0
     aux_ope = 0
     ++aux_ope2
-    aux_ope3 = 0
 })
 
 btn_n0.addEventListener("click", function(event){
     event.preventDefault()
     recomecar(aux_enter)
-    if (aux_ope == 1){
+    if (eval(($('#resultado').value).replace(",", ".")) == 0){
+    } else {
+        $('#resultado').value += "0"
+    } if (aux_ope == 1){
         $('#resultado').value = "0"
     }
     if (aux_virg == 1){
-        $('#resultado').value += "1"
-    } else {
-        if (eval(($('#resultado').value).replace(",", ".")) == 0){
-        } else {
-            $('#resultado').value += "0"
-        }
-    }
+        $('#resultado').value += "0"
+    } else {}
     aux_enter = 0
     aux_ope = 0
-    aux_ope3 = 0
     ++aux_ope2
 })
 
@@ -271,7 +240,7 @@ btn_virgula.addEventListener("click", function(event){
 
 btn_soma.addEventListener("click", function(event){
     event.preventDefault() 
-    if (aux_ope2 >= 2 || aux_ope3 == 1){
+    if (aux_ope2 >= 2){
         incrementar()
         let num = (eval(($('#expressão').value).replace(",", "."))).toString()
         $('#resultado').value = num
@@ -289,13 +258,12 @@ btn_soma.addEventListener("click", function(event){
     aux_enter = 0
     aux_ope = 1
     aux_ope2 = 1
-    aux_ope3 = 1 
     aux_virg = 0
 })
 
 btn_sub.addEventListener("click", function(event){
     event.preventDefault()
-    if (aux_ope2 >= 2 || aux_ope3 == 1){
+    if (aux_ope2 >= 2){
         incrementar()
         let num = (eval(($('#expressão').value).replace(",", "."))).toString()
         $('#resultado').value = num
@@ -313,13 +281,12 @@ btn_sub.addEventListener("click", function(event){
     aux_enter = 0
     aux_ope = 1
     aux_ope2 = 1
-    aux_ope3 = 1 
     aux_virg = 0
 })
 
 btn_mult.addEventListener("click", function(event){
     event.preventDefault()
-    if (aux_ope2 >= 2 || aux_ope3 == 1){
+    if (aux_ope2 >= 2){
         incrementar()
         let num = (eval(($('#expressão').value).replace(",", "."))).toString()
         $('#resultado').value = num
@@ -337,13 +304,12 @@ btn_mult.addEventListener("click", function(event){
     aux_enter = 0
     aux_ope = 1
     aux_ope2 = 1
-    aux_ope3 = 1 
     aux_virg = 0
 })
 
 btn_divi.addEventListener("click", function(event){
     event.preventDefault()
-    if (aux_ope2 >= 2 || aux_ope3 == 1){
+    if (aux_ope2 >= 2){
         incrementar()
         let num = (eval(($('#expressão').value).replace(",", "."))).toString()
         $('#resultado').value = num
@@ -361,7 +327,6 @@ btn_divi.addEventListener("click", function(event){
     aux_enter = 0
     aux_ope = 1
     aux_ope2 = 1
-    aux_ope3 = 1 
     aux_virg = 0
 })
 
