@@ -11,13 +11,17 @@
     <title>Questão 5</title>
 </head>
 <body>
-    <h1>Calculadora</h1>
     <div id="main">
-        <input type="text"></input><br>
+        <h1>Calculadora</h1>
+        <div id="minimizar" class="win-custom"></div>
+        <div id="maximizar" class="win-custom"></div>
+        <div id="fechar" class="win-custom"></div>
+        <input type="text" id="expressão"></p>
+        <input value="0" type="text" id="resultado">
         <button id="button-CE" class="camada1 options left"><label>CE</label></button>
         <button id="button-C" class="camada1 options"><label>C</label></button>
         <button id="button-backspace" class="camada1 options"><label><img id="apagar" src="assets/math_backspace.png" alt=""></label></button>
-        <button id="button-divi" class="camada1 options"><label>/</label></button>
+        <button id="button-divi" class="camada1 options"><label><img id="divisao" src="assets/math_division.png" alt=""></label></button>
 
         <button id="button-n7" class="camada2 left num"><label>7</label></button>
         <button id="button-n8" class="camada2 num"><label>8</label></button>
@@ -39,11 +43,5 @@
         <button id="button-virgula" class="camada5"><label>,</label></button>
         <button id="button-submit" class="camada5 btn-primary"><label><img id="igual" src="assets/math_equal.png" alt=""></label></button>
     </div>
-    <!--<select name="operação" class="custom-select" multiple>
-        <option value="adicao">+</option>
-        <option value="menos">-</option>
-        <option value="mult">*</option>
-        <option value="divi">/</option>
-    </select>-->
 </body>
 </html>

@@ -5,24 +5,59 @@
     src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
 }
 
-body{
-    height: 120%;
-}
 
 #main {
     width: 321px;
     height: 450px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
     background-color: #E6E6E6;
 }
 
+.win-custom {
+    display: inline-block;
+    width: 42px;
+    height: 30px;
+}
+
+#minimizar {
+    margin-left: 196px;
+}
+
+#maximizar {
+    margin-left: -5px;
+}
+
+#fechar {
+    margin-left: -5px;
+}
+
+#minimizar:hover {
+    margin-left: 196px;
+    background-color: #CFCFCF;
+}
+
+#maximizar:hover {
+    margin-left: -5px;
+    background-color: #CFCFCF;
+}
+
+#fechar:hover {
+    margin-left: -5px;
+    color: #fff;
+    background-color: #E81123;
+}
+
 h1{
+    display: inline-block;
+    position: absolute;
     width: fit-content;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-weight: 600;
+    font-size: 9pt;
+    font-family: 'Segoe UI Regular';
 }
 
 button{
@@ -44,16 +79,29 @@ button:hover{
     background-color: #F0F0F0;
 }
 
-input{
+#expressão{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #575757;
+    border: 0px;
+    background-color: #E6E6E6;
+    font-size: 12pt;
+    text-align: right;
+    outline: 0 !important;
+}
+
+#resultado{
     height: 70px;
     width: 300px;
-    margin-top: 115px;
+    margin-top: -10px;
+    margin-bottom: 27px;
     margin-left: 10px;
     border: 0px;
     background-color: #E6E6E6;
     font-size: 40pt;
     text-align: right;
-    /*outline: 0 !important;*/
+    outline: 0 !important;
 }
 
 .camada1, .camada2, .camada3, .camada4, .camada5{
@@ -85,6 +133,10 @@ input{
     margin-top: -5px;
     width: 21px;
     height: 21px;
+}
+
+#divisao {
+    width: 16px;
 }
 
 #igual{
